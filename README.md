@@ -49,6 +49,66 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
 
+## API Reference
+
+#### Register
+
+```http
+  Post http://127.0.0.1:8000/api/register
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
+
+#### Login
+
+```http
+  Post http://127.0.0.1:8000/api/login
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
+
+#### GetALL
+
+```http
+  GET http://127.0.0.1:8000/api/proyeks
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
+
+#### Get By ID
+
+```http
+  Post http://127.0.0.1:8000/api/proyeks/1
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
+#### Update
+
+```http
+  Patch http://127.0.0.1:8000/api/proyeks/1
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
+## Contributing
+#### Delete
+
+```http
+  Delete http://127.0.0.1:8000/api/proyeks/1
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|  | `string` | **Required**. Your API key |
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
